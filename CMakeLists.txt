@@ -4,5 +4,5 @@ project(Garbage_Collector C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(Garbage_Collector main.c
-        MLD.h
-        MLD.c)
+        Collector.h
+        Collector.c)
