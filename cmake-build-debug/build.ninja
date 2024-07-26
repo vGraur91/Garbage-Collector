@@ -55,8 +55,8 @@ build CMakeFiles/Garbage_Collector.dir/main.c.o: C_COMPILER__Garbage_Collector_u
   OBJECT_DIR = CMakeFiles/Garbage_Collector.dir
   OBJECT_FILE_DIR = CMakeFiles/Garbage_Collector.dir
 
-build CMakeFiles/Garbage_Collector.dir/MLD.c.o: C_COMPILER__Garbage_Collector_unscanned_Debug /home/vadim/Documents/Garbage-Collector/MLD.c || cmake_object_order_depends_target_Garbage_Collector
-  DEP_FILE = CMakeFiles/Garbage_Collector.dir/MLD.c.o.d
+build CMakeFiles/Garbage_Collector.dir/Collector.c.o: C_COMPILER__Garbage_Collector_unscanned_Debug /home/vadim/Documents/Garbage-Collector/Collector.c || cmake_object_order_depends_target_Garbage_Collector
+  DEP_FILE = CMakeFiles/Garbage_Collector.dir/Collector.c.o.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/Garbage_Collector.dir
   OBJECT_FILE_DIR = CMakeFiles/Garbage_Collector.dir
@@ -69,7 +69,7 @@ build CMakeFiles/Garbage_Collector.dir/MLD.c.o: C_COMPILER__Garbage_Collector_un
 #############################################
 # Link the executable Garbage_Collector
 
-build Garbage_Collector: C_EXECUTABLE_LINKER__Garbage_Collector_Debug CMakeFiles/Garbage_Collector.dir/main.c.o CMakeFiles/Garbage_Collector.dir/MLD.c.o
+build Garbage_Collector: C_EXECUTABLE_LINKER__Garbage_Collector_Debug CMakeFiles/Garbage_Collector.dir/main.c.o CMakeFiles/Garbage_Collector.dir/Collector.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/Garbage_Collector.dir
   POST_BUILD = :
